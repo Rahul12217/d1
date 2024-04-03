@@ -29,7 +29,7 @@ const Print = () => {
                         <p>Booked on : {`${days[today.getDay()]},${today.getFullYear()}/${today.getMonth()+1}/${today.getDate()}`}</p>
                     </div>
                     <div className="print-logo">
-                        <h2> <FontAwesomeIcon icon={faPlaneDeparture}/> AirTicket</h2>
+                        {/* <h2> <FontAwesomeIcon icon={faPlaneDeparture}/> AirTicket</h2> */}
                     </div>
                 </div>
                 <div className="info">
